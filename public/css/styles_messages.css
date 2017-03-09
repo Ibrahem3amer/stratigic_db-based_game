@@ -1,0 +1,60 @@
+
+#messagesTable-wrapper th{
+	text-align: center;
+}
+
+#messagesTable-wrapper{
+	padding:0px;
+}
+
+#messagesTable-wrapper>tbody>tr>td{
+	
+	padding-top:0px;
+	padding-left:0px;
+	padding-right:0px;
+	
+}
+
+#messagesTable-wrapper>tbody>tr:first-child div {
+	min-height: 300px;
+}
+
+#messagesTable-wrapper>tbody>tr>td:first-child{
+	
+	border-right:1px solid lightgrey;
+	
+}
+
+#messagesTable-wrapper td {
+	text-align: center;
+}
+
+#messagesTable-wrapper  table{
+	
+	margin:0px;
+}
+
+#messagesTable-wrapper table td{
+	text-align: left;
+	vertical-align: middle;
+}
+
+#messagesActionSelect{
+	margin:10px;
+	margin-bottom: 0px;
+	font-size:20px;
+}
+
+#messagesPagination{
+	width:180px;
+}
+
+@media (max-width:1000px){
+	#messagesPagination{
+		width: 10px;
+	}
+	
+	.hideable{
+		display:none;
+	}
+}
